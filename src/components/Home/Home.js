@@ -5,14 +5,17 @@ import "./Home.css";
 
 const Home = () => {
   const [employees, setEmployees] = useState([]);
+  const [cart, setCart] = useState([]);
+
   useEffect(() => {
     fetch("employees.JSON")
       .then((res) => res.json())
       .then((data) => setEmployees(data));
   }, []);
 
-  const handleHire = () => {
-    console.log("Employee clicked");
+  const handleHire = (employee) => {
+    const newCart = [...cart, employee];
+    setCart(newCart);
   };
   return (
     <div className="home-container">
@@ -26,7 +29,7 @@ const Home = () => {
         ))}
       </div>
       <div className="m">
-        <Cart></Cart>
+        <Cart cart={cart}></Cart>
       </div>
     </div>
   );

@@ -12,11 +12,14 @@ const Employee = (props) => {
           <p className="card-text">Age: {age}</p>
           <p className="card-text">Experience At: {experience}</p>
           <p className="card-text">Position To Hire: {position}</p>
-          <p className="card-text">Expected Salary: {salary}$ Per Month</p>
+          <p className="card-text">Expected Salary: {salary} $ Per Month</p>
         </div>
         <div className="card-footer">
-          <button className="btn btn-primary" onClick={() => handleHire()}>
-            Hire
+          <button
+            className="btn btn-primary rounded-2"
+            onClick={() => handleHire(props.employee)}
+          >
+            Hire {name}
           </button>
         </div>
       </div>

@@ -1,7 +1,53 @@
 import React from "react";
 
 const Header = () => {
-  return <div></div>;
+  return (
+    <div className="mb-3">
+      <h3 className="text-center text-danger fw-bold">
+        Company Builder <br />
+        <span className="text-primary fs-6">
+          (Hire Professionals For your Company)
+        </span>
+      </h3>
+      <h5 className="text-center text-danger fw-bold">
+        Total Budget: 50M Dollar
+      </h5>
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <div className="container-fluid">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul className="navbar-nav mx-auto fs-6 fw-bold">
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="/home">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/about">
+                  About Us
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/employees">
+                  Employees
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  );
 };
 
 export default Header;
