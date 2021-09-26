@@ -10,7 +10,11 @@ const Employee = (props) => {
     //   bootstrap card
     <div className="col">
       <div className="card h-100 card-container rounded-4 border-2">
-        <img src={img} className="card-img-top mx-auto pt-2" alt="..."></img>
+        <img
+          src={img}
+          className="card-img-top mx-auto mt-2 rounded-3"
+          alt="..."
+        ></img>
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <p className="card-text">
