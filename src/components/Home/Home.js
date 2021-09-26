@@ -8,7 +8,7 @@ const Home = () => {
   const [cart, setCart] = useState([]);
 
   useEffect(() => {
-    fetch("employees.JSON")
+    fetch("./employees.JSON")
       .then((res) => res.json())
       .then((data) => setEmployees(data));
   }, []);
@@ -18,7 +18,7 @@ const Home = () => {
     setCart(newCart);
   };
   return (
-    <div className="home-container">
+    <div className="home-container shadow-sm py-3">
       <div className="row row-cols-1 row-cols-md-3 g-4 mx-3">
         {employees.map((employee) => (
           <Employee
@@ -28,7 +28,7 @@ const Home = () => {
           ></Employee>
         ))}
       </div>
-      <div className="m">
+      <div className="mx-3">
         <Cart cart={cart}></Cart>
       </div>
     </div>

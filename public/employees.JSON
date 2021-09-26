@@ -43,16 +43,16 @@
     "name": "Jeff Bezos",
     "age": 57,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg/330px-Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg",
-    "experience": "Computer Science and Business",
-    "position": "Head of Product Management",
+    "experience": "Business Management",
+    "position": "Product Management",
     "salary": 550000
   },
   {
     "name": "Mark Zuckerberg",
     "age": 37,
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mark_Zuckerberg_F8_2019_Keynote_%2847721886632%29_%28cropped%29.jpg/330px-Mark_Zuckerberg_F8_2019_Keynote_%2847721886632%29_%28cropped%29.jpg",
-    "experience": "Computer Science and Social Media",
-    "position": "Head of Social Media",
+    "experience": "Computer Science",
+    "position": "Social Media Head",
     "salary": 1060000
   },
   {
@@ -60,7 +60,7 @@
     "age": 47,
     "img": "https://cdn01.grameenphone.com/sites/default/files/Yasir%20Azman_0.png",
     "experience": "Telecommunication",
-    "position": "Head of Telecommunication",
+    "position": "Telecommunication Head",
     "salary": 350000
   },
   {
@@ -70,5 +70,29 @@
     "experience": "Transport Management",
     "position": "Head of Transport",
     "salary": 2350000
+  },
+  {
+    "name": "Jack Ma",
+    "age": 55,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Enabling_eCommerce-_Small_Enterprises%2C_Global_Players_%2839008130265%29_%28cropped%29.jpg/330px-Enabling_eCommerce-_Small_Enterprises%2C_Global_Players_%2839008130265%29_%28cropped%29.jpg",
+    "experience": "Resource Management",
+    "position": "Management Head",
+    "salary": 4550000
+  },
+  {
+    "name": "Lisa Su",
+    "age": 51,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Lisa_T._Su%2C_PCAST_Member_%28cropped%29.jpg",
+    "experience": "Semiconductor Designer",
+    "position": "Chip Manufacturing Head",
+    "salary": 9350000
+  },
+  {
+    "name": "Tim Cook",
+    "age": 60,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/e/e1/%D0%A2%D0%B8%D0%BC_%D0%9A%D1%83%D0%BA_%2802-09-2021%29.jpg",
+    "experience": "R&D Management",
+    "position": "Head of R&D",
+    "salary": 8350000
   }
 ]

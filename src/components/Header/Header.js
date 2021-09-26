@@ -2,11 +2,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="mb-3">
-      <h3 className="text-center text-danger fw-bold">
+    <div className="mb-3 bg-dark">
+      <h3 className="text-center text-white fw-bold">
         Company Builder <br />
         <span className="text-primary fs-6">
-          (Hire Professionals For your Company)
+          (Hire Professionals For Your Company)
         </span>
       </h3>
       <h5 className="text-center text-danger fw-bold">
@@ -28,17 +28,21 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav mx-auto fs-6 fw-bold">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/home">
+                <a
+                  className="nav-link text-white"
+                  aria-current="page"
+                  href="/home"
+                >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">
+                <a className="nav-link text-white" href="/about">
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/employees">
+                <a className="nav-link text-white" href="/employees">
                   Employees
                 </a>
               </li>
