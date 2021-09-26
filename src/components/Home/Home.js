@@ -17,7 +17,12 @@ const Home = () => {
   //hire  button handler
   const handleHire = (employee) => {
     const newCart = [...cart, employee];
-    setCart(newCart);
+    //checking item already added in the cart or not
+    if (!cart.includes(employee)) {
+      setCart(newCart);
+    } else {
+      alert("Already Added In The Cart");
+    }
   };
 
   return (
