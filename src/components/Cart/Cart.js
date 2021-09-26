@@ -31,7 +31,7 @@ const Cart = (props) => {
             </th>
           </tr>
           <tr>
-            <th scope="row">Total Salary: {totalSalary}</th>
+            <th scope="row">Total Salary: ${totalSalary}</th>
           </tr>
         </tbody>
       </table>
