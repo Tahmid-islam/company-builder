@@ -13,7 +13,7 @@ const Header = () => {
         Total Budget: 500 Million Dollar
       </h5>
       {/* navbar */}
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-primary rounded-4 border border-danger sticky-top">
         <div className="container-fluid">
           <button
             className="navbar-toggler"

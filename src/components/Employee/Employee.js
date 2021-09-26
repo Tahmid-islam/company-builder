@@ -12,7 +12,7 @@ const Employee = (props) => {
       <div className="card h-100 card-container rounded-4 border-2">
         <img
           src={img}
-          className="card-img-top mx-auto mt-2 rounded-3"
+          className="card-img-top mx-auto mt-2 rounded-3 img-fluid"
           alt="..."
         ></img>
         <div className="card-body">
