@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Sundar Pichai",
+    "age": 49,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sundar_pichai.png/330px-Sundar_pichai.png",
+    "experience": "IT",
+    "position": "CEO",
+    "salary": 1000000
+  },
+  {
+    "name": "Satya Nadella",
+    "age": 54,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg/330px-MS-Exec-Nadella-Satya-2017-08-31-22_%28cropped%29.jpg",
+    "experience": "IT",
+    "position": "CTO",
+    "salary": 500000
+  },
+  {
+    "name": "Mohammod Russel",
+    "age": 45,
+    "img": "http://futurestartup.com/wp-content/uploads/2019/09/DSC_3083.jpg",
+    "experience": "Digital Marketing",
+    "position": "Social Media Director",
+    "salary": 1000000
+  },
+  {
+    "name": "Solaiman Sukhon",
+    "age": 46,
+    "img": "https://img.priyo.com/files/201805/14650672-10154048127757794-6923933584145731042-n-1623651142.jpg",
+    "experience": "Marketing",
+    "position": "Head Of Marketing",
+    "salary": 200000
+  },
+  {
+    "name": "Ryan Roslansky",
+    "age": 44,
+    "img": "https://i.insider.com/5e3b227bd9db1d415225a007?width=598&format=jpeg",
+    "experience": "HR management",
+    "position": "Head Of HR",
+    "salary": 500000
+  },
+  {
+    "name": "Jeff Bezos",
+    "age": 57,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg/330px-Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg",
+    "experience": "Computer Science and Business",
+    "position": "Head of Product Management",
+    "salary": 550000
+  },
+  {
+    "name": "Mark Zuckerberg",
+    "age": 37,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Mark_Zuckerberg_F8_2019_Keynote_%2847721886632%29_%28cropped%29.jpg/330px-Mark_Zuckerberg_F8_2019_Keynote_%2847721886632%29_%28cropped%29.jpg",
+    "experience": "Computer Science and Social Media",
+    "position": "Head of Social Media",
+    "salary": 1060000
+  },
+  {
+    "name": "Yasir Azman",
+    "age": 47,
+    "img": "https://cdn01.grameenphone.com/sites/default/files/Yasir%20Azman_0.png",
+    "experience": "Telecommunication",
+    "position": "Head of Telecommunication",
+    "salary": 350000
+  },
+  {
+    "name": "Dara Khosrowshahi",
+    "age": 52,
+    "img": "https://upload.wikimedia.org/wikipedia/commons/1/15/CEO_of_Uber_Technologies_Dara_Khosrowshahi_in_New_York_-_2019_%28cropped%29.jpg",
+    "experience": "Transport Management",
+    "position": "Head of Transport",
+    "salary": 2350000
+  }
+]
