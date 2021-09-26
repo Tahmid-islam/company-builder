@@ -4,10 +4,12 @@ const Cart = (props) => {
   const { cart } = props;
 
   let totalSalary = 0;
+  // create an empty array to show employees name in cart
   const names = [];
 
   for (const employee of cart) {
     totalSalary = totalSalary + employee.salary;
+    //push the names of employees in the cart
     names.push(employee.name);
   }
 
@@ -17,18 +19,19 @@ const Cart = (props) => {
       <table className="table border">
         <tbody>
           <tr>
-            <th scope="row">Total Employee: {cart.length}</th>
+            <th scope="row">Total Employees Added: {cart.length}</th>
           </tr>
           <tr>
             <th scope="row">
-              Employees Name:
+              {/* show employee names */}
+              Added Employees Name:
               {names.map((name) => (
                 <li key={name}>{name}</li>
               ))}
             </th>
           </tr>
           <tr>
-            <th scope="row">Total Salary: {totalSalary} $</th>
+            <th scope="row">Total Salary: {totalSalary}</th>
           </tr>
         </tbody>
       </table>

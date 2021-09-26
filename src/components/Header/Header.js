@@ -6,12 +6,13 @@ const Header = () => {
       <h3 className="text-center text-white fw-bold">
         Company Builder <br />
         <span className="text-primary fs-6">
-          (Hire Professionals For Your Company)
+          (Hire Professionals As An Advisor For Your Company)
         </span>
       </h3>
       <h5 className="text-center text-danger fw-bold">
-        Total Budget: 50M Dollar
+        Total Budget: 500 Million Dollar
       </h5>
+      {/* navbar */}
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <button
@@ -29,19 +30,19 @@ const Header = () => {
             <ul className="navbar-nav mx-auto fs-6 fw-bold">
               <li className="nav-item">
                 <a
-                  className="nav-link text-white"
+                  className="nav-link text-white px-2"
                   aria-current="page"
                   href="/home"
                 >
                   Home
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item px-2">
                 <a className="nav-link text-white" href="/about">
                   About Us
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item px-2">
                 <a className="nav-link text-white" href="/employees">
                   Employees
                 </a>

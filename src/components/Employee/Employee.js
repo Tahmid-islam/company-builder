@@ -1,12 +1,13 @@
 import React from "react";
 import "./Employee.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { faUserCheck } from "@fortawesome/free-solid-svg-icons";
 
 const Employee = (props) => {
   const { handleHire } = props;
   const { name, age, img, experience, position, salary } = props.employee;
   return (
+    //   bootstrap card
     <div className="col">
       <div className="card h-100 card-container rounded-4 border-2">
         <img src={img} className="card-img-top mx-auto pt-2" alt="..."></img>
@@ -22,8 +23,7 @@ const Employee = (props) => {
             <span className="fw-bold">Position To Hire:</span> {position}
           </p>
           <p className="card-text">
-            <span className="fw-bold">Expected Salary:</span> {salary} $ Per
-            Month
+            <span className="fw-bold">Expected Salary:</span> ${salary} Per Week
           </p>
         </div>
         <div className="card-footer">
@@ -31,7 +31,7 @@ const Employee = (props) => {
             className="btn btn-danger rounded-2 px-1"
             onClick={() => handleHire(props.employee)}
           >
-            <FontAwesomeIcon icon={faShoppingCart} />
+            <FontAwesomeIcon icon={faUserCheck} />
             &nbsp; Hire {name}
           </button>
         </div>

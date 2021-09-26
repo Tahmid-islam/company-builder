@@ -7,18 +7,22 @@ const Home = () => {
   const [employees, setEmployees] = useState([]);
   const [cart, setCart] = useState([]);
 
+  //use effect for load data
   useEffect(() => {
     fetch("./employees.JSON")
       .then((res) => res.json())
       .then((data) => setEmployees(data));
   }, []);
 
+  //hire  button handler
   const handleHire = (employee) => {
     const newCart = [...cart, employee];
     setCart(newCart);
   };
+
   return (
     <div className="home-container shadow-sm py-3">
+      {/* row for show data in home page */}
       <div className="row row-cols-1 row-cols-md-3 g-4 mx-3">
         {employees.map((employee) => (
           <Employee
